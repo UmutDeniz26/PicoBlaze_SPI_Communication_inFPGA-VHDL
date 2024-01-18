@@ -1,0 +1,4 @@
+vhdl work "kcpsm3.vhd"
+vhdl work "BRAM0_r.vhd"
+vhdl work "BRAM0t.vhd"
+vhdl work "PicoBlaze.vhd"

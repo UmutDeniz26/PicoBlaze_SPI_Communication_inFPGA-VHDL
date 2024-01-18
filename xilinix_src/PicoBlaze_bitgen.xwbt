@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Proje dosyalari\PicoBlaze\PicoBlaze.ncd
+OUTFILE=D:\Proje dosyalari\PicoBlaze\PicoBlaze.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\Proje dosyalari\PicoBlaze
+LICENSE=WebPack
+USER_INFO=212215983_0_0_959

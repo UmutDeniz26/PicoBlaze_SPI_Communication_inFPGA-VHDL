@@ -1,0 +1,156 @@
+		#ifDef proc::xPblze3
+
+			#set proc::xPblze3::scrpdSize,				64						; [64, 128, 256]
+			#set proc::xPblze3::clkFreq,				50000000				; in Hz
+			
+			#set IOdev::BRAM0::en,						TRUE
+			#set IOdev::BRAM0::type,					mem
+			#set IOdev::BRAM0::size,					1024
+			
+			#set instmem::pageSize,						1024
+			#set instmem::pageCount,					1
+			#set instmem::sharedMemLocation,			loMem	; [ hiMem, loMem ]
+			
+			#set IOdev::BRAM0::value,					instMem
+			
+			#set IOdev::BRAM0::vhdlEn,					TRUE
+			#set IOdev::BRAM0::vhdlEntityName,			"BRAM0r"
+			#set IOdev::BRAM0::vhdlTmplFile,			"ROM_form.vhd"
+			#set IOdev::BRAM0::vhdlTargetFile,			"BRAM0r.vhd"
+		#endIf
+		
+		#ORG ADDR, 0
+			LOAD s0, 0	; Read port is on this register
+			LOAD s1, 0	; when the data is ready to write, this register is written to the port
+			LOAD s2, 0	; increases when the clock is clear, counts from 0 to ff when overflowing, increases s3
+			LOAD s3, 0	; start of sequence is observed when it is 2	 
+			LOAD s4, 0	; counts from 0 to 8, the byte reading is completed when it is 8
+		
+			
+	main_loop:
+			RDPRT s0, 00
+			AND s0, 0x03   					; This will keep only the lower 2 bits of s1
+			
+			
+			LOAD s8,0x00
+			;possible s0: 00 01 10 11
+
+			COMP s0, 1			 
+			JUMP Z,	shift_left0
+			COMP s0, 3
+			JUMP Z,	shift_left1
+			
+;			;Main objective of this part is to decide start of sequence if clock is low for (2 * 255) times
+;			ADD s2,1
+;			COMP s2,0xFF						;Change the number to 0 before test (when it overflows, s3 is increased)
+;			JUMP NZ, SkipInstruction
+;			ADD s3,1
+;			LOAD s2,0
+;			
+;	; Check s3 counter, if it is 2, observe the start of the sequence (s3 counter = how many times c2 is overflowing)
+;	SkipInstruction:
+;			COMP s3,0x05
+;			CALL Z, StartSequence
+
+			
+	
+			CALL WaitClockHigh
+			JUMP main_loop
+
+	; Start of the sequence is observed
+	StartSequence:
+			LOAD s1,0
+			LOAD s4,0
+			LOAD s3,0
+			LOAD s2,0
+			RET
+	
+	incerementS3:
+			LOAD s2,0
+			ADD s3,1
+			RET
+	
+	; Wait for the clock infinitely until it is high
+	WaitClockHigh:
+			RDPRT s0, 00
+			AND s0, 0x03
+			
+			LOAD s8,0xEE
+			;Wait XXXX XXX1	
+			
+		    COMP s0, 1
+		    RET Z							; If the clock is high, return from the function
+		    COMP s0, 3
+			RET Z			
+			
+			ADD s2,1
+			COMP s2,0xFF						;Change the number to 0 before test (when it overflows, s3 is increased)
+			CALL Z, incerementS3
+			COMP s3,0x05
+			CALL Z, StartSequence
+			
+			JUMP WaitClockHigh
+	; Wait for the clock infinitely until it is high
+	WaitClockLow:
+			RDPRT s0, 00            		; Read the current state of the clock
+			
+			AND s0, 0x03
+			LOAD s8,0xFF
+			
+			;Wait XXXX XXX0
+		    COMP s0, 0
+		    RET Z							; If the clock is high, return from the function			
+		    COMP s0, 2
+			RET Z			
+			
+			JUMP WaitClockLow
+		
+	shift_left0:
+			LOAD s2, 0		
+			LOAD s3, 0		
+			
+			ADD s4,1 			
+			SL0 s1
+			CALL returnAndCheckByteEnd 		
+			CALL WaitClockLow;
+			CALL WaitClockHigh;	
+			JUMP main_loop
+
+				
+	shift_left1:
+			LOAD s2, 0		
+			LOAD s3, 0		
+			
+			ADD s4,1
+			SL1 s1
+			CALL returnAndCheckByteEnd
+			CALL WaitClockLow;
+			CALL WaitClockHigh;	
+			JUMP main_loop
+
+				
+		
+	returnAndCheckByteEnd:
+	
+			COMP s4,8
+			JUMP NZ,SkipInstruction2
+			WRPRT s1, 01 ;					 Data reading completed
+			CALL ResetAllRegisters
+			RET
+
+	SkipInstruction2:
+			RET
+				
+	;Reset all registers
+	ResetAllRegisters:
+			LOAD s0, 0
+			LOAD s1, 0
+			LOAD s2, 0
+			LOAD s3, 0 
+			LOAD s4, 0
+			RET
+	
+	lock:
+			LOAD s1,0xFF
+			WRPRT s1, 01 ;					 Data reading completed
+			JUMP lock

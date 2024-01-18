@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/tester_isim_beh.exe" -prj "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/tester_beh.prj" "work.tester" 

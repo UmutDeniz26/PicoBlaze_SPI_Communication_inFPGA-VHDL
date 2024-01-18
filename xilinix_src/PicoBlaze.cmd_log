@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.xst" -ofn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.syr" 
+xst -intstyle ise -ifn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.xst" -ofn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.syr" 
+xst -intstyle ise -ifn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.xst" -ofn "C:/Users/ben/Desktop/Project/PicoBlaze/PicoBlaze.syr" 
+xst -intstyle ise -ifn "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.xst" -ofn "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.syr" 
+xst -intstyle ise -ifn "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.xst" -ofn "C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PicoBlaze.ucf -p xc3s500e-fg320-4 PicoBlaze.ngc PicoBlaze.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PicoBlaze_map.ncd PicoBlaze.ngd PicoBlaze.pcf 
+par -w -intstyle ise -ol high -t 1 PicoBlaze_map.ncd PicoBlaze.ncd PicoBlaze.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PicoBlaze.twx PicoBlaze.ncd -o PicoBlaze.twr PicoBlaze.pcf -ucf PicoBlaze.ucf 

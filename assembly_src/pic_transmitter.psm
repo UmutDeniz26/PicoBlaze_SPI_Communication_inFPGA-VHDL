@@ -1,0 +1,92 @@
+		#ifDef proc::xPblze3
+
+			#set proc::xPblze3::scrpdSize,				64						; [64, 128, 256]
+			#set proc::xPblze3::clkFreq,				50000000				; in Hz
+			
+			
+			#set IOdev::BRAM0::en,						TRUE
+			#set IOdev::BRAM0::type,					mem
+			#set IOdev::BRAM0::size,					1024
+			
+			#set instmem::pageSize,						1024
+			#set instmem::pageCount,					1
+			#set instmem::sharedMemLocation,			hiMem	; [ hiMem, loMem ]
+			
+			#set IOdev::BRAM0::value,					instMem
+			
+			#set IOdev::BRAM0::vhdlEn,					TRUE
+			#set IOdev::BRAM0::vhdlEntityName,			"BRAM0t"
+			#set IOdev::BRAM0::vhdlTmplFile,			"ROM_form.vhd"
+			#set IOdev::BRAM0::vhdlTargetFile,			"BRAM0t.vhd"
+		#endIf
+		
+		#ORG ADDR, 0
+		INT DISABLE
+		
+		;s0 -> data to be transmitted
+		;s4 -> transmitter port
+		;s2 -> counter for delay subroutine, provides a 4-clock delay at the start
+		;s3 -> bit counter, transmission completion when it reaches 8
+		;s1 -> delay counter		
+	
+					
+    data_transmit_init:
+			LOAD s2,0x1F
+	data_loop:		    
+			SUB s2,1    		
+    		CALL delayClockLow
+    		COMP s2,0
+    		JUMP NZ,data_loop
+    		RDPRT s0, 00
+
+	loop_start:
+			LOAD s3,8
+			LOAD s4,0
+			
+	   loop:	
+	   		LOAD s4, 0
+	        		
+			SL0  s0	
+			JUMP C, setbit
+			JUMP clearbit
+			
+   clearbit:
+            LOAD s4,1
+			AND s4,0x03
+	        WRPRT s4, 01   
+	        
+	        CALL delay
+	        CALL delayClockLow
+	        JUMP returnLoop
+         
+	setbit:
+            LOAD s4,3
+			AND s4,0x03
+	        WRPRT s4, 01
+	        
+	        CALL delay
+	        CALL delayClockLow
+	        JUMP returnLoop
+
+ returnLoop:	
+			SUB s3,1
+			COMP s3,0
+			JUMP Z, data_transmit_init
+			JUMP loop
+	
+	delayClockLow:
+		    LOAD s4,0
+	        WRPRT s4, 01
+	delay:		   
+		    LOAD s1, 0xFF
+		    JUMP delayLoop 
+	delayLoop:
+		    SUB s1, 1
+		    COMP s1, 0
+		    JUMP NZ, delayLoop  ; Continue looping until s1 becomes zero
+		    RET  
+		    
+	lock:
+        WRPRT s0, 01   
+        JUMP lock
+    

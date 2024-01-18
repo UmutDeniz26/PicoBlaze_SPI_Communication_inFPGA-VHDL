@@ -1,0 +1,4 @@
+work	"BRAM0r.vhd"
+work	"BRAM0t.vhd"
+work	"PicoBlaze.vhd"
+work	"kcpsm3.vhd"

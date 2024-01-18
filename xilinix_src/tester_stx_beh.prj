@@ -1,0 +1,5 @@
+vhdl isim_temp "kcpsm3.vhd"
+vhdl isim_temp "BRAM0_r.vhd"
+vhdl isim_temp "BRAM0t.vhd"
+vhdl isim_temp "PicoBlaze.vhd"
+vhdl isim_temp "tester.vhd"

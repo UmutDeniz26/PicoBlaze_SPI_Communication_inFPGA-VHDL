@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="PicoBlaze.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="PicoBlaze.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PicoBlaze.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PicoBlaze.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PicoBlaze.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PicoBlaze.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="PicoBlaze.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PicoBlaze.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="PicoBlaze.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="PicoBlaze.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="PicoBlaze.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PicoBlaze.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="PicoBlaze.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PicoBlaze.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PicoBlaze.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="PicoBlaze.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="PicoBlaze.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="PicoBlaze.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="PicoBlaze.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PicoBlaze.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PicoBlaze_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="PicoBlaze_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PicoBlaze_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PicoBlaze_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PicoBlaze_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="PicoBlaze_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PicoBlaze_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PicoBlaze_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="PicoBlaze_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="PicoBlaze_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PicoBlaze_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PicoBlaze_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="PicoBlaze_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="PicoBlaze_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PicoBlaze_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PicoBlaze_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tester_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tester_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tester_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tester_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1704938878" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1704938878">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704941898" xil_pn:in_ck="-8106403457531693382" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1704941898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BRAM0_r.vhd"/>
+      <outfile xil_pn:name="BRAM0t.vhd"/>
+      <outfile xil_pn:name="PicoBlaze.vhd"/>
+      <outfile xil_pn:name="kcpsm3.vhd"/>
+      <outfile xil_pn:name="tester.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1704927933" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="239193045185239405" xil_pn:start_ts="1704927933">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704927933" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3612454150418755409" xil_pn:start_ts="1704927933">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704927933" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6982640142875734752" xil_pn:start_ts="1704927933">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704941898" xil_pn:in_ck="-8106403457531693382" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1704941898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="BRAM0_r.vhd"/>
+      <outfile xil_pn:name="BRAM0t.vhd"/>
+      <outfile xil_pn:name="PicoBlaze.vhd"/>
+      <outfile xil_pn:name="kcpsm3.vhd"/>
+      <outfile xil_pn:name="tester.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1704941902" xil_pn:in_ck="-8106403457531693382" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4864141799829454108" xil_pn:start_ts="1704941898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tester_beh.prj"/>
+      <outfile xil_pn:name="tester_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1704941902" xil_pn:in_ck="4771825545484929990" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-6053466545427786935" xil_pn:start_ts="1704941902">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tester_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7956524696562459174" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6982640142875734752" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3387812969392257816" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704929001" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2967470645317150358" xil_pn:start_ts="1704929001">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939170" xil_pn:in_ck="5920811820159974387" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4698859997991179459" xil_pn:start_ts="1704939166">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PicoBlaze.lso"/>
+      <outfile xil_pn:name="PicoBlaze.ngc"/>
+      <outfile xil_pn:name="PicoBlaze.ngr"/>
+      <outfile xil_pn:name="PicoBlaze.prj"/>
+      <outfile xil_pn:name="PicoBlaze.stx"/>
+      <outfile xil_pn:name="PicoBlaze.syr"/>
+      <outfile xil_pn:name="PicoBlaze.xst"/>
+      <outfile xil_pn:name="PicoBlaze_vhdl.prj"/>
+      <outfile xil_pn:name="PicoBlaze_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939237" xil_pn:in_ck="-8678994659257384763" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4091947528206114739" xil_pn:start_ts="1704939237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939242" xil_pn:in_ck="6283877701684845220" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6791916244902478835" xil_pn:start_ts="1704939237">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PicoBlaze.bld"/>
+      <outfile xil_pn:name="PicoBlaze.ngd"/>
+      <outfile xil_pn:name="PicoBlaze_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939248" xil_pn:in_ck="5983999474004694085" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1704939242">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PicoBlaze.pcf"/>
+      <outfile xil_pn:name="PicoBlaze_map.map"/>
+      <outfile xil_pn:name="PicoBlaze_map.mrp"/>
+      <outfile xil_pn:name="PicoBlaze_map.ncd"/>
+      <outfile xil_pn:name="PicoBlaze_map.ngm"/>
+      <outfile xil_pn:name="PicoBlaze_map.xrpt"/>
+      <outfile xil_pn:name="PicoBlaze_summary.xml"/>
+      <outfile xil_pn:name="PicoBlaze_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939263" xil_pn:in_ck="4357160098892199422" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1704939248">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PicoBlaze.ncd"/>
+      <outfile xil_pn:name="PicoBlaze.pad"/>
+      <outfile xil_pn:name="PicoBlaze.par"/>
+      <outfile xil_pn:name="PicoBlaze.ptwx"/>
+      <outfile xil_pn:name="PicoBlaze.unroutes"/>
+      <outfile xil_pn:name="PicoBlaze.xpi"/>
+      <outfile xil_pn:name="PicoBlaze_pad.csv"/>
+      <outfile xil_pn:name="PicoBlaze_pad.txt"/>
+      <outfile xil_pn:name="PicoBlaze_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1704939263" xil_pn:in_ck="8674437380365540673" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1704939262">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PicoBlaze.twr"/>
+      <outfile xil_pn:name="PicoBlaze.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,8 @@
+AR picoblaze picoblaze C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.vhd sub00/vhpl07 1704939174
+AR bram0t low_level_definition C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/BRAM0t.vhd sub00/vhpl03 1704939170
+EN kcpsm3 NULL C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/kcpsm3.vhd sub00/vhpl00 1704939167
+EN bram0r NULL C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/BRAM0_r.vhd sub00/vhpl04 1704939171
+EN bram0t NULL C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/BRAM0t.vhd sub00/vhpl02 1704939169
+AR bram0r low_level_definition C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/BRAM0_r.vhd sub00/vhpl05 1704939172
+EN picoblaze NULL C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/PicoBlaze.vhd sub00/vhpl06 1704939173
+AR kcpsm3 low_level_definition C:/Users/ben/Desktop/PicoBlaze/PicoBlaze/kcpsm3.vhd sub00/vhpl01 1704939168
