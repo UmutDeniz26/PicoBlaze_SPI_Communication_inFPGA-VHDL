@@ -20,7 +20,7 @@ This repository provides VHDL code for implementing SPI communication using Pico
 
 1-) Clone the repository to your local machine.
 
-2-) Open the project in your preferred FPGA development environment
+2-) Open the project in your FPGA development environment
 
 3-) Customize the PicoBlaze assembly code or make any necessary adjustments based on your project requirements (Jumpers, LEDs, Switches).
 
