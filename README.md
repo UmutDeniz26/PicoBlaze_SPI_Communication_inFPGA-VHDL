@@ -1,17 +1,7 @@
-# Receiver Assembly Code: 
-
-![receiver1](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/a26f4959-77a7-45b4-bb3c-7d2709912092)
-![receiver2](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/40e584be-8a07-4459-bf89-91a4218b6bd4)
-![receiver3](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/6af24ce2-18e7-49c0-929f-2f69cbab17ca)
 
 # Receiver Flowchart: 
 
 ![receiverFlowchart](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/f9897194-55ae-43a2-af71-867a604d58c3)
-
-# Transmitter Assembly Code: 
-
-![transmitter1](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/35db7be6-7e49-46d2-b6fb-783c16288fcd)
-![transmitter2](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/4d0e987e-2d90-4b5f-922a-4ce0ec7f67cb)
 
 # Transmitter Flowchart: 
 
