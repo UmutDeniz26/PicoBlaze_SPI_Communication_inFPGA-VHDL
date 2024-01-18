@@ -24,6 +24,8 @@ Customize the PicoBlaze assembly code or make any necessary adjustments based on
 Synthesize and implement the design on your FPGA board.
 
 <br></br>
+<hr></hr>
+<br></br>
 
 # Project Materials
 
