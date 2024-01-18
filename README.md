@@ -23,6 +23,7 @@ Open the project in your preferred FPGA development environment
 Customize the PicoBlaze assembly code or make any necessary adjustments based on your project requirements (Jumpers, LEDs, Switches).
 Synthesize and implement the design on your FPGA board.
 
+<br></br>
 
 # Project Materials
 
