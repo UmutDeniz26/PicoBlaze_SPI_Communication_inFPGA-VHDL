@@ -1,4 +1,4 @@
-Receiver Assembly Code:
+Receiver Assembly Code:\n
 ![receiver1](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/a26f4959-77a7-45b4-bb3c-7d2709912092)
 ![receiver2](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/40e584be-8a07-4459-bf89-91a4218b6bd4)
 ![receiver3](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/6af24ce2-18e7-49c0-929f-2f69cbab17ca)
