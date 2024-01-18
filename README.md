@@ -2,13 +2,15 @@
 # Receiver Flowchart: 
 
 <div align="center">
-  <img src="https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/f9897194-55ae-43a2-af71-867a604d58c3)" alt="Your Image Description">
+  <img src="https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/f9897194-55ae-43a2-af71-867a604d58c3" alt="Your Image Description">
 </div>
 
 
 # Transmitter Flowchart: 
 
-![transmitterFlowchart](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/0e0b5367-82d2-41a0-bcd5-5410a794e64f)
+<div align="center">
+  <img src="https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/0e0b5367-82d2-41a0-bcd5-5410a794e64f" alt="Your Image Description">
+</div>
 
 # Description:
 
