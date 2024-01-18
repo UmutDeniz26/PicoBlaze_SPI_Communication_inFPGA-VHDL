@@ -1,27 +1,27 @@
-#Receiver Assembly Code: 
+# Receiver Assembly Code: 
 
 ![receiver1](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/a26f4959-77a7-45b4-bb3c-7d2709912092)
 ![receiver2](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/40e584be-8a07-4459-bf89-91a4218b6bd4)
 ![receiver3](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/6af24ce2-18e7-49c0-929f-2f69cbab17ca)
 
-#Receiver Flowchart: 
+# Receiver Flowchart: 
 
 ![receiverFlowchart](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/f9897194-55ae-43a2-af71-867a604d58c3)
 
-#Transmitter Assembly Code: 
+# Transmitter Assembly Code: 
 
 ![transmitter1](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/35db7be6-7e49-46d2-b6fb-783c16288fcd)
 ![transmitter2](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/4d0e987e-2d90-4b5f-922a-4ce0ec7f67cb)
 
-#Transmitter Flowchart: 
+# Transmitter Flowchart: 
 
 ![transmitterFlowchart](https://github.com/UmutDeniz26/PicoBlaze_SPI_Communication_inFPGA-VHDL/assets/76654674/0e0b5367-82d2-41a0-bcd5-5410a794e64f)
 
-#Description:
+# Description:
 
 This repository provides VHDL code for implementing SPI communication using PicoBlaze soft processor in an FPGA environment. Also the project includes both receiver and transmitter modules, each accompanied by their respective assembly code.
 
-#How to Use:
+# How to Use:
 
 Clone the repository to your local machine.
 Open the project in your preferred FPGA development environment
